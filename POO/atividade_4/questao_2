@@ -1,0 +1,4 @@
+A variável quantReservas não foi inicializada na declaração da classe Hotel,
+Mesmo com a compilação permissiva, haverá um erro lógico: ao instanciar o hotel e chamar adicionarReserva(), o código executará undefined++,
+ cujo resultado será NaN (Not-a-Number).
+ 

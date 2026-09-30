@@ -1,0 +1,6 @@
+a)O resultado dos dois "prints" (que na verdade são três instruções console.log) será 90, 90 e 90
+Porque Ao executar c1 = c2 e c3 = c1, as três variáveis passam a apontar para a mesma posição de memória, ou seja, a instância da Conta de número "2" que foi iniciada com saldo 100.
+A operação c1.sacar(10) reduz o saldo dessa conta para 90. A operação de transferência de 50 de c1 para c2 não altera o saldo, pois debita e credita na mesma instância. Como todas apontam para a mesma conta, todas exibem 90.
+
+b)O objeto da Conta "1" (criado na primeira linha com saldo 100) perde sua única referência de acesso quando a variável c1 é sobrescrita.
+Com isso, o objeto fica inacessível na memória e posteriormente será recolhido e eliminado pelo Garbage Collector da máquina virtual.

@@ -1,0 +1,2 @@
+Com "allowUnreachableCode": true, o compilador ignora o resto do texto e compilador
+Com "allowUnreachableCode": false, o compilador emite um erro avisando sobre a linha do console.log, pois logo em seguida vem um return e ela jamais será executada.

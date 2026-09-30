@@ -1,0 +1,2 @@
+O erro de compilação ocorre porque o construtor da classe Radio requer a passagem de um argumento do tipo number referente ao volume
+mas a instanciação new Radio() foi chamada sem argumentos, uma solução seria passar o argumento esperado no momento da instanciação.

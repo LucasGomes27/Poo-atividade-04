@@ -1,0 +1,2 @@
+Professor fui estudar a documentação referente ao no implicityAny, mas não obtive exito realizando no meu código, aparentemente com ele false ele aceita declarar sem tipagem
+Já com o implicityAny true ele dispara um erro de compilação exigindo o tipo da variável.

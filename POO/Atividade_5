@@ -1,0 +1,3 @@
+// Comentários :Nos Exemplos 1 e 2, o TypeScript aponta alertas de erro indicando que operações aritméticas entre tipos 
+// incompatíveis (como number e string, ou boolean e number) não são recomendadas.
+// O TypeScript atua como uma camada de checagem para evitar que coerções acidentais cheguem à produção.
