@@ -1,6 +1,0 @@
-a)O Banco viola o Princípio da Responsabilidade Única (SRP) ao gerenciar simultaneamente o armazenamento 
-de duas entidades (Cliente e Conta) e as regras de negócio.
-b)Sim. Criar CadastroDeClientes e CadastroDeContas isola o armazenamento e validações básicas, 
-deixando o Banco limpo para coordenar apenas as regras de negócio.
-c)Na classe Banco, pois ela é a única que acessa ambos os cadastros 
-para validar regras cruzadas sem criar dependência entre eles.
